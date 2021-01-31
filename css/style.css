@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Imbue:wght@900&family=Open+Sans+Condensed:ital,wght@0,300;1,300&family=Roboto&display=swap");
+body {
+	font-family: "Open Sans Condensed", sans-serif;
+	color: rgb(255, 255, 255);
+	background-color: black;
+}
+.brdr {
+	font-weight: 900;
+	font-family: "Imbue", serif;
+	list-style: none;
+}
+.brdr::first-letter {
+	color: red;
+	font-size: 150%;
+	/* text-decoration: underline red; */
+}
+.rating {
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	font-size: 250%;
+	color: red;
+}
+img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
